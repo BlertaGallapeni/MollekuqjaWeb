@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handmade by Mollëkuqja</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-right" data-aos-delay="300" href="./index.html"
+          >Home</a
+        >
+        <a data-aos="zoom-in-right" data-aos-delay="450" href="./about.html">About</a>
+        <a data-aos="zoom-in-right" data-aos-delay="600" href="./products.html"
+          >Products</a
+        >
+        <a data-aos="zoom-in-right" data-aos-delay="750" href="./gallery.html">Gallery</a>
+        <a data-aos="zoom-in-right" data-aos-delay="950" href="./services.html">Services</a>
+        <a data-aos="zoom-in-right" data-aos-delay="1150" href="#contact"
+          >Contact</a
+        >
+        <div data-aos="zoom-in-right" data-aos-delay="1300" class="icons">
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-heart" id="cart-btn"></div>
+          <div class="fas fa-shopping-bag" id="cart-btn"></div>
+          <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="search here..." />
+          <label for="search-box" class="fas fa-search"></label>
+        </div>
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact" style="margin-top: 80px;">
+        <div class="contactMe">
+     
+          <div class="box">
+            <!-- Form -->
+            <div class="contacting form" data-aos="zoom-in-right" data-aos-delay="450">
+              <h3 style="color:var(--bg);">Send a Message</h3>
+              <form>
+                <div class="formBox">
+                  <div class="row50">
+                    <div class="inputBox">
+                      <span>First Name</span>
+                      <input type="text" placeholder="Blerta" />
+                    </div>
+  
+                    <div class="inputBox">
+                      <span>Last Name</span>
+                      <input type="text" placeholder="Gallapeni" />
+                    </div>
+                  </div>
+  
+                  <div class="row50">
+                    <div class="inputBox">
+                      <span>Email</span>
+                      <input
+                        type="text"
+                        placeholder="gallapeniblerta@gmail.com"
+                      />
+                    </div>
+  
+                    <div class="inputBox">
+                      <span>Mobile</span>
+                      <input type="text" placeholder="+383 49 000000" />
+                    </div>
+                  </div>
+  
+                  <div class="row100">
+                    <div class="inputBox">
+                      <span>Message</span>
+                      <textarea
+                        placeholder="Write your message here..."
+                      ></textarea>
+                    </div>
+                  </div>
+  
+                  <div class="row100">
+                    <div class="inputBox">
+                      <input type="submit" value="Send" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- InfoBox -->
+            <div class="contacting info" data-aos="zoom-in-left" data-aos-delay="650">
+              <h3>Contact Info</h3>
+              <div class="infoBox">
+                <div>
+                  <span><i class="fas fa-map-marker-alt"></i></span>
+                  <p>Rruga B, Pristina, Kosovo.</p>
+                </div>
+                <div>
+                  <span><i class="far fa-envelope"></i></span>
+                  <a href="mailto:gallapeniblerta@gmail.com"
+                    >gallapeniblerta@gmail.com</a
+                  >
+                </div>
+                <div>
+                  <span><i class="fas fa-phone"></i></span>
+                  <a href="tel:+383 49 000 000">+383 49 000 000</a>
+                </div>
+              </div>
+            </div>
+            <!-- MAP -->
+            <div class="contacting map" data-aos="zoom-in-left" data-aos-delay="850">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.585258170957!2d21.1705272156244!3d42.64895162480064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ec0d5603ad7%3A0x1ba2ce0329d66240!2sRruga%20B%2C%20Prishtin%C3%AB!5e0!3m2!1sen!2s!4v1648638965057!5m2!1sen!2s"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>Quick links</h3>
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> Home
+          </a>
+          <a href="#about" class="links">
+            <i class="fas fa-arrow-right"></i> About
+          </a>
+          <a href="#gallery" class="links">
+            <i class="fas fa-arrow-right"></i> Gallery
+          </a>
+          <a href="#services" class="links">
+            <i class="fas fa-arrow-right"></i> Services
+          </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3>Shop</h3>
+          <a href="./products.html" class="links">
+            <i class="fas fa-arrow-right"></i> All products
+          <a href="./products.html" class="links">
+            <i class="fas fa-arrow-right"></i> Dresses
+          </a>
+          <a href="./products.html" class="links">
+            <i class="fas fa-arrow-right"></i> Accessories
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> Shopping bag
+          </a>
+        </div>
+    
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <a data-aos="zoom-in-left" data-aos-delay="150" href="#home" class="logo">
+            <img src="./images/logo1.png" width="120px"/>
+          </a>
+          <p>
+            Follow our social media accounts to see customer photos, custom designs and the latest news from us! <br/>
+            Be free and don't hesitate to contact us.
+          </p>
+         
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="credit">
+      Created by <span>Mollekuqja Kids</span> | All rights reserved!
+    </div>
+    <!-- footer section ends -->
+
+    <!-- Animations on scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
